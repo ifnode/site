@@ -1,0 +1,21 @@
+{
+  "name": "ifnode.com",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ifnode/site",
+  "authors": [
+    "ilfroloff <ilfroloff@gmail.com>"
+  ],
+  "description": "Site of ifnode",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionicons": "~2.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "ifnode.com",
+    "version": "1.0.0",
+    "description": "Site of ifnode",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ifnode/site.git"
+    },
+    "keywords": [
+        "ifnode"
+    ],
+    "author": "ilfroloff",
+    "bugs": {
+        "url": "https://github.com/ifnode/site/issues"
+    },
+    "homepage": "https://github.com/ifnode/site",
+
+    "dependencies": {
+        "ifnode": "latest",
+        "passport": "latest"
+    },
+    "devDependencies": {
+        "gulp": "latest",
+        "gulp-watch": "latest",
+        "gulp-nodemon": "latest",
+        "gulp-sass": "latest",
+        "gulp-browserify": "latest",
+        "gulp-rename": "latest",
+        "gulp-uglify": "latest"
+    }
+}
