@@ -42,6 +42,13 @@ gulp.task('bundle-style', bundle_style({
     }
 }));
 
+gulp.task('build', function() {
+    gulp.run([
+        'bundle-script',
+        'compress-script',
+        'bundle-style'
+    ]);
+});
 
 gulp.task('public-files-watch', function() {
     gulp.watch(config.scripts_sources, [
